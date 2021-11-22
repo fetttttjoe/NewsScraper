@@ -47,7 +47,7 @@ def showArtikels(my_dict):
         newspaper.pop(0) # remove first element in list, because we already used it
 def main():
     menue = {
-            "Search New Articel"        : f'news.main() {CONFIG_FILENAME}',
+            "Search New Articel"        : f'news.main()',
             "Show Artikel Information"  : 'showArtikels',
             "Open Artikel"              : 'openArtikel(f"{name}")'
             }
